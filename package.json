@@ -1,0 +1,16 @@
+{
+    "name": "CalendarWithModal",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "parcel ./src/calendar.html --open",
+        "watch": "parcel watch ./src/calendar.html"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "parcel-bundler": "^1.12.5"
+    }
+}

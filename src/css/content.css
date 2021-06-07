@@ -1,0 +1,77 @@
+/* Шрифты */
+
+@font-face {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./Oswald-Regular.ttf);
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+* {
+    padding: 0px;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(217, 220, 223);
+    font-family: "Oswald", sans-serif;
+}
+
+h1 {
+    padding: 10px 0;
+}
+
+h2 {
+    padding-bottom: 10px;
+}
+
+.my_page {
+    margin: 30px 80px;
+    min-width: 400px;
+}
+
+.header {
+    border-radius: 8px;
+    padding: 5px 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+    background-color: rgb(245, 253, 253);
+}
+
+.navigation {
+    text-align: right;
+}
+
+.navigation a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgb(117, 73, 73);
+    opacity: 0.6;
+    padding: 0 3px;
+}
+
+.navigation .active {
+    opacity: 1;
+    color: black;
+}
+
+.months {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.month {
+    color: rgba(24, 24, 24, 0.7);
+    cursor: pointer;
+}
+
+.month:hover {
+    color: rgba(24, 56, 214, 0.8);
+}
+
+.month.choose {
+    color: rgb(28, 56, 214);
+    cursor: pointer;
+}
